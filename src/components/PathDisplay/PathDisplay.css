@@ -1,0 +1,16 @@
+#path-display-text{
+    margin-left: 8rem;
+    margin-top: 0.8rem;
+    margin-bottom: 0.8rem;
+}
+
+#path-link{
+    text-decoration: none;
+}
+
+@media screen and (max-width: 576px) {
+    #path-display-text{
+        margin-left: 40px;
+    }
+    
+}

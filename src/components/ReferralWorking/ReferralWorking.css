@@ -1,0 +1,62 @@
+.steps {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.referral-steps {
+    width: 35%;
+    min-width: 100px;
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.icons {
+    width: 60px;
+    height: 60px;
+    background-color: #D9D9D940;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-size {
+    scale: 0.8;
+}
+
+.icon-box {
+    margin: 30px 20px 30px 0px;
+}
+
+.step-description {
+    color: #4D4D4D;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.step-title {
+    font-size: 1rem;
+}
+
+.steps-card {
+    margin-top: 50px;
+}
+
+#steps-box-title {
+    color: #800080;
+    font-size: 1.5rem;
+}
+
+@media screen and (max-width: 576px) {
+    .steps {
+        width: 100%;
+        display: block;
+        min-width: none;
+    }
+
+    .referral-steps {
+        width: 100%;
+    }
+}

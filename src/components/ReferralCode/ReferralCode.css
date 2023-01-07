@@ -1,0 +1,81 @@
+p, h1{
+    margin: 0%;
+    padding: 0%;
+}
+
+#referral-code-box{
+    width: 20rem;
+    min-width: 15rem;
+    margin-right: 16px;
+}
+
+#referral-code-box-enrollment{
+    width: 10rem;
+    min-width: 10rem;
+}
+
+#code-title {
+    font-weight: 600;
+    font-size: 24px;
+    color: #800080;
+    margin-bottom: 20px;
+}
+
+#code-title-enrollment {
+    font-weight: 600;
+    font-size: 16px;
+    color: #800080;
+    margin-bottom: 20px;
+}
+
+#code-section {
+    width: 100%;
+    height: 60px;
+    border-width: 2px;
+    border-style: solid;
+    border-image: linear-gradient(to left, #800080, #FF864C) 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1rem;
+}
+
+#code-section-enrollment {
+    width: 100%;
+    height: 40px;
+    border: 2px solid rgb(212, 212, 212);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1rem;
+    border-radius: 10px;
+}
+
+#code {
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 30px;
+    letter-spacing: 1.5em;
+    color: #800080;
+    text-align: center;
+}
+
+#code {
+    font-weight: 500;
+    font-size: 0.8rem;
+    line-height: 30px;
+    letter-spacing: 1em;
+    color: #800080;
+    text-align: center;
+}
+
+@media screen and (max-width: 576px) {
+    #referral-code-box{
+        width: 96%;
+        margin-top: 50px;
+    }
+
+    #code-section {
+        width: 100%;
+    }
+}
