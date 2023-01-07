@@ -1,0 +1,85 @@
+.card {
+    width: 358px;
+    height: 228px;
+    min-width: 218px;
+    background: linear-gradient(270deg, #800080 0%, #FF864C 100%);
+    border-radius: 20px;
+    color: white;
+}
+
+.courses-btns {
+    border: 1px solid rgb(208, 208, 208);
+    border-radius: 10px;
+    background-color: transparent;
+    color: white;
+    margin: 5px;
+    margin-left: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.cards-list {
+    display: flex;
+    gap: 40px;
+    border-radius: 22px;
+    margin-top: 30px;
+}
+
+.enroll-section {
+    width: 75%;
+    margin-top: 60px;
+}
+
+#enrollment-number-text{
+    color: #800080;
+    font-weight: bold;
+}
+
+#enrollment-number{
+    color: #800080;
+}
+
+.courses{
+    height: 50%;
+    padding-left: 10px;
+}
+
+.referral-amount-cards{
+    height: 20%;
+    margin-left: 10px;
+}
+
+.amount-referral-card{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.name-card{
+    font-weight: bold;
+}
+
+.enrolled-courses{
+    margin-top: 10px;
+    padding-left: 8px;
+}
+
+@media screen and (max-width: 576px) {
+    .cards-list {
+        display: block;
+        width: 100%;
+    }
+    .card {
+        margin-bottom: 20px;
+        width: 100%;
+    }
+    .header {
+        padding-top: 20px;
+    }
+}

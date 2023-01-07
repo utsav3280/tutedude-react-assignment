@@ -1,0 +1,44 @@
+#code-wallet-section{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    gap: 20px;
+    width: 75%;
+}
+
+.main-container-enroll{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.goback-btn{
+    display: none;
+    width: 75%;
+    margin-top: 30px;
+}
+
+.terms{
+    width: 75%;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+#back-btn-link{
+    text-decoration: none;
+}
+
+#back-btn-text{
+    color: #800080;
+}
+
+.terms-text{
+    color: #800080;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 576px) {
+    .goback-btn{
+        display:block;
+    }
+}
